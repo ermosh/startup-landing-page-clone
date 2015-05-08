@@ -438,7 +438,6 @@ th {
 /*Nav styling*/
 
 body {
-    background-color: LightGray;
     font-family: 'Roboto', sans-serif;
 	font-size: 16px; 
 	color: #838994; 
@@ -453,9 +452,8 @@ body {
 .top-navigation .links {
 	float: right;
 	list-style-type: none;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
-	ont-size: 16px;
+	font-size: 16px;
     margin-top: 25px;
     -webkit-font-smoothing: antialiased;
 }
@@ -523,6 +521,8 @@ h3 {
 	font-size: 25px;
 }
 
+/*icon section*/
+
 .big-button {
 	width: 155px;
 	margin: 0 auto;
@@ -541,6 +541,25 @@ h3 {
 		background-color: #D9400E;
 		cursor: pointer;
 	}
+
+/*.cases .devices {
+	width: 33.3333333%;
+    display: webkit-flexbox;
+     styles to assist with debugging 
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 8em;
+}*/
+
+.devices img {
+	width: 33.3333333%;
+    display: webkit-flexbox;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 8em;
+
+}
 
 
 
