@@ -447,6 +447,9 @@ body {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .links {
@@ -551,9 +554,10 @@ h3 {
     height: 8em;
 }*/
 
-.devices img {
+.cases .devices img {
 	width: 33.3333333%;
-    display: webkit-flexbox;
+    display: inline-flex;
+    flex-direction: row;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
