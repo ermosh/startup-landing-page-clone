@@ -435,38 +435,113 @@ th {
 
 /*end of Normalize*/
 
-.top-navigation .links {
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
-}
-
-	.top-navigation .links li {
-	    display: inline-block;
-	    margin-left: 25px;
-	}
-
-.top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
-}
-
-.top-navigation .links li:hover {
-    cursor: pointer;
-    color: #333333;
-}
+/*Nav styling*/
 
 body {
     background-color: LightGray;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 	font-size: 16px; 
 	color: #838994; 
 	letter-spacing: 0.03em;
 
 }
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation .links {
+	float: right;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	ont-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.top-navigation .links li :hover {
+	color: #333333;
+	cursor: pointer;
+}
+
+.top-navigation > .content {
+	height: 70px;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+.logo {
+	margin-top: 15px;
+}
+
+/*main image styling*/
+
+/*.content {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}*/
+
+.content {
+	width: 970px;
+    margin: 0 auto;
+}
+
+.introduction {
+	background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+h1, h3 {
+	color: white;
+	font-weight: 300; 
+	text-align: center;
+}
+
+.introduction h1 {
+  margin-top: 15.5rem;
+  font-size: 3.125rem;
+}
+
+h3 {
+	font-weight: 300;
+	margin-top: -1em;
+	margin-bottom: 1em;
+	font-size: 25px;
+}
+
+.big-button {
+	width: 155px;
+	margin: 0 auto;
+	text-shadow: none;
+    border-style: none;
+	border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    background-color: #F15A29;
+    color: white;
+    font-size: 16px;
+    display: block;
+}
+
+	.big-button:hover {
+		background-color: #D9400E;
+		cursor: pointer;
+	}
+
 
 
 
