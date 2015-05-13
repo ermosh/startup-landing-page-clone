@@ -515,7 +515,6 @@ h1, h3 {
 }
 
 h3 {
-	font-weight: 300;
 	margin-top: -1em;
 	margin-bottom: 1em;
 	font-size: 1.5em;
@@ -527,14 +526,14 @@ h3 {
 	width: 155px;
 	margin: 0 auto;
 	text-shadow: none;
-    border-style: none;
+  border-style: none;
 	border-radius: 4px;
-    padding: 16px 26px;
-    line-height: 1.33;
-    background-color: #F15A29;
-    color: white;
-    font-size: 16px;
-    display: block;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #F15A29;
+  color: white;
+  font-size: 16px;
+  display: block;
 }
 
 	.big-button:hover {
@@ -555,9 +554,6 @@ ul .devices {
     /*display: webkit-flexbox;*/
     float: left;
     height: 8em;
-     /*styles to assist with debugging */
-    /*border: 1px solid black;
-    box-sizing: border-box;*/
 }
 
 .cases, .footer {
@@ -594,14 +590,34 @@ ul.icons {
   ul.icons li {
     width: 2.5rem;
     height: 2.5rem;
-    border: 1px solid gray;
+    border: 1px solid #eaebec;
     border-radius: 1.25rem;
     display: inline-block;
   }
 
-  ul.icons li i {
+  ul.icons li:hover {
+    cursor: pointer;
+  }
+
+ .fa-twitter, .fa-facebook, .fa-instagram {
     margin-top: .75em;
   }
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-facebook {
+  color: #4c66a4
+}
+
+.fa-instagram {
+  color: #3f729b;
+}
+
+footer p {
+  font-weight: lighter;
+}
 
 
 
