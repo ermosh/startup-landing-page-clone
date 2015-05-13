@@ -586,18 +586,22 @@ ul .devices {
 }
 
 ul.icons {
-  width: 125px;
+  width: 130px;
   margin: 0 auto;
   padding: 0;
 }
 
-ul.icons li {
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid gray;
-  border-radius: 1.25rem;
-  display: inline-block;
-}
+  ul.icons li {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid gray;
+    border-radius: 1.25rem;
+    display: inline-block;
+  }
+
+  ul.icons li i {
+    margin-top: .75em;
+  }
 
 
 
